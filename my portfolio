@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Md Ashif Reza - A passionate software developer skilled in frontend, backend, and programming languages.">
+    <title>Md Ashif Reza - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #2e15bd, #feb47b);
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 40px 60px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 1100px;
+            width: 100%;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h1 {
+            font-size: 42px;
+            color: #ff7e5f;
+            margin-bottom: 15px;
+            font-family: 'Playfair Display', serif;
+            letter-spacing: 2px;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            display: block;
+            margin: 20px auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        h2 {
+            font-size: 28px;
+            margin: 20px 0;
+            font-family: 'Playfair Display', serif;
+            color: #333;
+            text-transform: uppercase;
+            position: relative;
+        }
+
+        h2::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -5px;
+            width: 100px;
+            height: 3px;
+            background-color: #ff7e5f;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .skills-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            background-color: rgba(255, 126, 95, 0.9);
+            color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+        }
+
+        .skills-card {
+            background-color: white;
+            color: #333;
+            padding: 25px;
+            flex: 1 1 250px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease-in-out;
+            text-align: center;
+        }
+
+        .skills-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .contact-section a {
+            color: #ff7e5f;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 18px;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        .contact-section a:hover {
+            color: #e85a4f;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #ff7e5f;
+            color: #fff;
+            padding: 20px;
+            margin-top: 50px;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .footer-links a {
+            color: #fff;
+            margin: 0 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Md Ashif Reza</h1>
+        <p>Passionate about learning, creating, and coding.</p>
+        <img src="https://i.ibb.co/4RjNsGLb/photo-2025-02-22-10-26-35.jpg" alt="Profile Picture of Md Ashif Reza">
+        <h2>Education</h2>
+        <ul>
+            <li><b>10th Class</b> (CBSE): 86.4%</li>
+            <li><b>12th Class</b> (CBSE): 65%</li>
+            <li><b>Bachelor of Engineering</b> (CSE): 7.5 CGPA</li>
+        </ul>
+        <div class="skills-section">
+            <h2>Skills</h2>
+            <div class="skills-card">
+                <h3>Frontend Development</h3>
+                <p>HTML, CSS, JavaScript, Bootstrap</p>
+            </div>
+            <div class="skills-card">
+                <h3>Backend Development</h3>
+                <p>Node.js, Express.js, MongoDB, SQL</p>
+            </div>
+            <div class="skills-card">
+                <h3>Programming Languages</h3>
+                <p>Java, Python, C++, PHP</p>
+            </div>
+        </div>
+        <div class="contact-section">
+            <h2>Contact Me</h2>
+            <p><b>Email</b>: <a href="mailto:rezasif206@gmail.com">rezasif206@gmail.com</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Md Ashif Reza. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+        </div>
+    </footer>
+</body>
+</html>
